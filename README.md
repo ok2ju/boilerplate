@@ -4,16 +4,11 @@ This boilerplate based on Stefan's Imhoff series of articles [Introduction to Gu
 
 ## Installation
 1. Open terminal and run
-
-    cd boilerplate && npm install
-
-to install all npm dependencies.
-
+		cd boilerplate && npm install
+   to install all npm dependencies.
 2. Run
-
-    bower install
-
-to install bower dependencies such as normalize.css and jQuery. If you don't need it just remove this dependencies from bower.json.
+		bower install
+   to install bower dependencies such as normalize.css and jQuery. If you don't need it just remove this dependencies from bower.json.
 
 ## Start
 
