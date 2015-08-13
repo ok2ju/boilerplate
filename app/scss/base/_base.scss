@@ -1,0 +1,56 @@
+// imports
+@import '../utils/fontUtils';
+
+// variables
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  @include font-size(16px);
+  @include font-smoothing;
+  text-rendering: optimizeLegibility;
+  transition: all .3s ease-in-out;
+  background: url('../images/close-menu.png');
+  background-color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+video,
+canvas {
+  max-width: 100%;
+}
+
+iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

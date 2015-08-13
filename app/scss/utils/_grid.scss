@@ -1,0 +1,20 @@
+//variables
+$columns-count: 12 !default;
+$gutter-width: 30px !default;
+
+@mixin make-col($count, $gutter: $gutter-width) {
+  @if($count > 0) {
+    float: left;
+    min-height: 1px;
+    padding-left: ($gutter / 2);
+    padding-right: ($gutter / 2);
+    position: relative;
+    width: percentage($count / $columns-count);
+  }
+}
+
+@mixin make-row($gutter: $gutter-width) {
+  @include clearfix;
+  margin-left: ($gutter / -2);
+  margin-right: ($gutter / -2);
+}

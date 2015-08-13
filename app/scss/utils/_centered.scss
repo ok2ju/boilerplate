@@ -1,0 +1,21 @@
+// center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    //@include transform(translateX(-50%) translateY(-50%));
+  } @else if $xy == x {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    //@include transform(translateX(-50%));
+  } @else if $xy == y {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    //@include transform(translateY(-50%));
+  }
+}
