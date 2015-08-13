@@ -22,7 +22,7 @@ For development run:
     gulp
 
 this task will:
-  - compile sass at buld/development/css folder
+  - compile sass at `buld/development/css` folder
   - prefix css rules with autoprefixer
   - compile jade at build/development/ folder
   - copy all fonts from app/fonts to build/development/fonts folder
