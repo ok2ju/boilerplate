@@ -43,5 +43,6 @@ this task will:
   - optimize and copy all images from `build/development/images` to `build/production/images` folder
   - replace a lot of URLs to small images with Base64 encoded images
   
-  ## Configuration
-  All paths and properties you can find at `gulp/config.js` folder.
+## Configuration
+
+All paths and properties you can find at `gulp/config.js` folder.
