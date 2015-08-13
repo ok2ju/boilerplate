@@ -3,6 +3,7 @@ Boilerplate for front-end development.
 This boilerplate based on Stefan's Imhoff series of articles [Introduction to Gulp.js](http://stefanimhoff.de/2014/gulp-tutorial-1-intro-setup/)
 
 ## Installation
+
 1.Open terminal and run
 
     cd boilerplate && npm install
