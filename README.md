@@ -1,4 +1,6 @@
 # Boilerplate
+[![devDependency Status](https://david-dm.org/ok2ju/boilerplate/dev-status.svg)](https://david-dm.org/ok2ju/boilerplate#info=devDependencies)
+
 Boilerplate for front-end development.
 This boilerplate based on Stefan's Imhoff series of articles [Introduction to Gulp.js](http://stefanimhoff.de/2014/gulp-tutorial-1-intro-setup/)
 
